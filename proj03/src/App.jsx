@@ -13,6 +13,7 @@ import { useState } from 'react'
       <button onClick={()=> {setColor("blue")}}>Blue</button>
       <button onClick={()=> {setColor("lavender")}}>Lavender</button>
       <button onClick={()=> {setColor("peachpuff")}}>Peach</button>
+      <button onClick={()=> {setColor("purple")}}>purple</button>
     </div>   
     </>
   )
