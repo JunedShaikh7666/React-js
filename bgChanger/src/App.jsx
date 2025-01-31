@@ -8,13 +8,14 @@ import { useState } from 'react'
   return (
     <>
     <div style={{backgroundColor: color}}>
-      <button onClick={()=> {setColor("red")}}>Red</button>
+      <button onClick={()=> {setColor("red")}} style={{background:{}}}>Red</button>
       <button onClick={()=> {setColor("green")}}>Green</button>
       <button onClick={()=> {setColor("blue")}}>Blue</button>
       <button onClick={()=> {setColor("lavender")}}>Lavender</button>
       <button onClick={()=> {setColor("peachpuff")}}>Peach</button>
-      <button onClick={()=> {setColor("purple")}}>purple</button>
-    </div>   
+      <button onClick={()=> {setColor("purple")}}>purple</button> <br/>
+      <button onClick={()=>{setColor('')}} style={{backgroundColor:'Black', color:'white'}}>Clear</button>   
+    </div>
     </>
   )
 }

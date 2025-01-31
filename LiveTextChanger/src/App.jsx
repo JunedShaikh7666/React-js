@@ -11,10 +11,12 @@ function App() {
 
   return (
     <>
+    <h1>{inputvalue}</h1>
      <div className="demo">
-      <h1>{inputvalue}</h1>
       <input type="text" value={inputvalue} onChange={onchange}/>
+      <button onClick={()=>{newValue('Shaikh Juned')}}>Clear Screen</button>
      </div>
+     
     </>
   )
 }
