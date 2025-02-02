@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+body{
+    margin: 0;padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+.App{
+    background-color: rgba(95, 158, 160, 0.337);
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 20px;
+}
+.second-div{
+    background-color: yellow
+}
+.displaytask{
+    display: inline-block;
+}
+input{
+    padding: 2px;
+}
+button{
+    border: none;
+    background-color: rgba(250, 53, 53, 0.207);
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+#task{
+    border: none;
+    background:transparent;
+    margin-left: 10px;
+}
+h1{
+    font-size: 25px;
+}
