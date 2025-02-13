@@ -7,13 +7,13 @@ function Home() {
     <div className="App">
       <header>
         <div className="logo">
-          <h1>My Website</h1>
+          <h1><a href="App">My Website</a></h1>
         </div>
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Dashboard">Dashboard</a></li>
           </ul>
         </nav>
       </header>
