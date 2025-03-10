@@ -6,10 +6,9 @@ function Home() {
     <>
     
     <div>
-		
-	
+
 		{/* <!--welcome-hero start --> */}
-		<section id="home" className="welcome-hero">
+		<div id="home" className="welcome-hero">
 
 			{/* <!-- top-area Start --> */}
 			<div className="top-area">
@@ -174,10 +173,9 @@ function Home() {
 				</div>
 			</div>
 
-		</section>
-
+		</div>
 		
-		<section id="service" className="service">
+		<div id="service" className="service">
 			<div className="container">
 				<div className="service-content">
 					<div className="row">
@@ -218,18 +216,16 @@ function Home() {
 				</div>
 			</div>
 
-		</section>
+		</div>
 		
-
-		
-		<section id="new-cars" className="new-cars">
+		<div id="new-cars" className="new-cars">
 			<div className="container">
 				<div className="section-header">
 					<p>checkout <span>the</span> latest cars</p>
 					<h2>newest cars</h2>
 				</div>
 				<div className="new-cars-content">
-					<div className="owl-carousel owl-theme" id="new-cars-carousel">
+					<div  id="new-cars-carousel">
 						<div className="new-cars-item">
 							<div className="single-new-cars-item">
 								<div className="row">
@@ -309,10 +305,9 @@ function Home() {
 				</div>
 			</div>
 
-		</section>
+		</div>		
 		
-		
-		<section id="featured-cars" className="featured-cars">
+		<div id="featured-cars" className="featured-cars">
 			<div className="container">
 				<div className="section-header">
 					<p>checkout <span>the</span> featured cars</p>
@@ -518,10 +513,9 @@ function Home() {
 				</div>
 			</div>
 
-		</section>
-
+		</div>
 		
-		<section id="clients-say"  className="clients-say">
+		<div id="clients-say"  className="clients-say">
 			<div className="container">
 				<div className="section-header">
 					<h2>what our clients say</h2>
@@ -592,9 +586,9 @@ function Home() {
 				</div>
 			</div>
 
-		</section>
+		</div>
 
-		<section id="brand"  className="brand">
+		<div id="brand"  className="brand">
 			<div className="container">
 				<div className="brand-area">
 					<div className="owl-carousel owl-theme brand-item">
@@ -635,9 +629,9 @@ function Home() {
 
 			</div>
 
-		</section>
+		</div>
 
-		<section id="blog" className="blog"></section>
+		<div id="blog" className="blog"></div>
 
 		<footer id="contact"  className="contact">
 			<div className="container">
@@ -743,28 +737,6 @@ function Home() {
 			</div>
 			
         </footer>
-
-
-		
-		
-
-		{/* <script src="assets/js/jquery.js"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script> */}
         
     </div>
     
